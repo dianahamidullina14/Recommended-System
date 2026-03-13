@@ -1,0 +1,38 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Данные
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Модели
+model/
+*.pkl
+*.cbm
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
+
+# Большие бинарные файлы
+*.pyd
+*.so
+*.dll
+*.exe
