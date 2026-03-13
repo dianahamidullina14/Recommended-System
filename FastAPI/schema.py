@@ -1,6 +1,7 @@
 import datetime
 
 from pydantic import BaseModel, Field
+from typing import List
 
 '''
 class UserGet(BaseModel):
@@ -39,3 +40,6 @@ class PostGet(BaseModel):
     class Config:
         orm_mode=True
 
+class Response(BaseModel):
+    recommendations: List[PostGet]
+    exp_group: str
